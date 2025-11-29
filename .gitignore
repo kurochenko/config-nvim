@@ -6,3 +6,30 @@ debug
 foo.*
 *.log
 data
+
+# Plugin lock file (optional - some prefer to commit this)
+lazy-lock.json
+
+# Generated files
+.luarc.json
+
+# Spell files
+spell/
+
+# Local/secret configs
+lua/config/local.lua
+lua/config/secrets.lua
+.env
+.env.*
+
+# Plugin cache/data
+plugin/
+
+# Undo/swap/backup files
+undo/
+swap/
+backup/
+
+# OS files
+.DS_Store
+Thumbs.db
